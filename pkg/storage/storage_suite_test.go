@@ -1,16 +1,14 @@
 package storage_test
 
 import (
+	"github.com/globalsign/mgo"
+	"github.com/globalsign/mgo/bson"
+	"github.com/oktadeveloper/okta-go-vue-example/pkg/storage"
+	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/gomega"
 	"log"
 	"os"
 	"testing"
-
-	"github.com/globalsign/mgo"
-	"github.com/globalsign/mgo/bson"
-	"github.com/klebervirgilio/vue-crud-app-with-golang/pkg/storage"
-
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
 )
 
 func TestStorage(t *testing.T) {

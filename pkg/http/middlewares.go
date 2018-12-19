@@ -2,12 +2,11 @@ package http
 
 import (
 	"context"
+	jwtverifier "github.com/okta/okta-jwt-verifier-golang"
+	"github.com/rs/cors"
 	"log"
 	"net/http"
 	"strings"
-
-	jwtverifier "github.com/okta/okta-jwt-verifier-golang"
-	"github.com/rs/cors"
 )
 
 func JSONApi(h http.Handler) http.Handler {

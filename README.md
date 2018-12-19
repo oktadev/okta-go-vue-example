@@ -1192,7 +1192,7 @@ run_server:
 	@MONGO_URL=mongodb://mongo_user:mongo_secret@0.0.0.0:27017/kudos PORT=:4444 go run cmd/main.go
 
 run_client:
-    @/bin/bash -c "cd $$GOPATH/src/github.com/klebervirgilio/kudo-oos/pkg/http/web/app && yarn serve"
+    @/bin/bash -c "cd $$GOPATH/src/github.com/{{ YOUR_GITHUB_USERNAME }}/kudo-oos/pkg/http/web/app && yarn serve"
 ```
 
 ### Dockerfile

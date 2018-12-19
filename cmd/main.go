@@ -2,12 +2,11 @@ package main
 
 import (
 	"flag"
+	web "github.com/oktadeveloper/okta-go-vue-example/pkg/http"
+	"github.com/oktadeveloper/okta-go-vue-example/pkg/storage"
 	"log"
 	"net/http"
 	"os"
-
-	web "github.com/klebervirgilio/vue-crud-app-with-golang/pkg/http"
-	"github.com/klebervirgilio/vue-crud-app-with-golang/pkg/storage"
 )
 
 func main() {

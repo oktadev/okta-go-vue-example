@@ -1,12 +1,11 @@
 package storage
 
 import (
-	"log"
-	"os"
-
 	"github.com/globalsign/mgo"
 	"github.com/globalsign/mgo/bson"
-	"github.com/klebervirgilio/vue-crud-app-with-golang/pkg/core"
+	"github.com/oktadeveloper/okta-go-vue-example/pkg/core"
+	"log"
+	"os"
 )
 
 const (

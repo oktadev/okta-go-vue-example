@@ -2,13 +2,12 @@ package http
 
 import (
 	"encoding/json"
+	"github.com/julienschmidt/httprouter"
+	"github.com/oktadeveloper/okta-go-vue-example/pkg/core"
+	"github.com/oktadeveloper/okta-go-vue-example/pkg/kudo"
 	"io/ioutil"
 	"net/http"
 	"strconv"
-
-	"github.com/julienschmidt/httprouter"
-	"github.com/klebervirgilio/vue-crud-app-with-golang/pkg/core"
-	"github.com/klebervirgilio/vue-crud-app-with-golang/pkg/kudo"
 )
 
 type Service struct {

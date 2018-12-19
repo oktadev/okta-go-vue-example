@@ -14,4 +14,4 @@ run_server:
 	@MONGO_URL=${MONGO_URL} PORT=4444 go run cmd/main.go
 
 run_client:
-	@/bin/bash -c "cd $$GOPATH/src/github.com/klebervirgilio/vue-crud-app-with-golang/pkg/http/web/app && yarn serve"
+	@/bin/bash -c "cd $$GOPATH/src/github.com/oktadeveloper/okta-go-vue-example/pkg/http/web/app && yarn serve"

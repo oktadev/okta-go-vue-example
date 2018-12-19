@@ -1,9 +1,8 @@
 package kudo
 
 import (
+	"github.com/oktadeveloper/okta-go-vue-example/pkg/core"
 	"strconv"
-
-	"github.com/klebervirgilio/vue-crud-app-with-golang/pkg/core"
 )
 
 type GitHubRepo struct {

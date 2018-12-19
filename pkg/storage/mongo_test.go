@@ -1,13 +1,11 @@
 package storage_test
 
 import (
-	"os"
-
+	"github.com/oktadeveloper/okta-go-vue-example/pkg/core"
+	. "github.com/oktadeveloper/okta-go-vue-example/pkg/storage"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-
-	"github.com/klebervirgilio/vue-crud-app-with-golang/pkg/core"
-	. "github.com/klebervirgilio/vue-crud-app-with-golang/pkg/storage"
+	"os"
 )
 
 var _ = Describe("Mongo", func() {
