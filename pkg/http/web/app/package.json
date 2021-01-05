@@ -10,7 +10,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.0.0-rc.1",
     "@okta/okta-vue": "^1.0.4",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
     "vuetify": "^1.2.0",
